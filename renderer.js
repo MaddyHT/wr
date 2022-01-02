@@ -38,7 +38,7 @@ export function renderContent(winRate, showDisconnectedHint) {
             }
         </style>
         <div class="container">
-            <div class="label">Win rate</div>
+            <div class="label">Рейтинг побед</div>
             <div class="win-rate">${renderWinRate(winRate)}</div>
             <div class="disconnected-hint">
                 Disconnected.<br>

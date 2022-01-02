@@ -67,7 +67,7 @@ export function renderFavicon(winRate) {
 }
 
 function renderWinRate(winRate) {
-    return isNaN(winRate) ? 'N/A' : `${(winRate * 100).toFixed(0)}%`;
+    return isNaN(winRate) ? 'Недоступно' : `${(winRate * 100).toFixed(0)}%`;
 }
 
 function renderColor(rgb) {
